@@ -47,8 +47,8 @@ span:hover
         flex-direction: column;
     }
     .menu_right{
-        width: 80%;
+        width: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
   }
