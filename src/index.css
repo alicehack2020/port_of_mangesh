@@ -8,4 +8,41 @@
    url("./font/Poppins-Bold.ttf") format("truetype");
 }
   
+@font-face {
+  font-family: "Poppins-BoldItalic";
+  src: local("Poppins"),
+   url("./font/Poppins-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-Medium";
+  src: local("Poppins"),
+   url("./font/Poppins-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Poppins-MediumItalic";
+  src: local("Poppins"),
+   url("./font/Poppins-MediumItalic.ttf") format("truetype");
+}
+
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: local("Poppins"),
+   url("./font/Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: local("Poppins"),
+   url("./font/Poppins-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-SemiBoldItalic";
+  src: local("Poppins"),
+   url("./font/Poppins-SemiBoldItalic.ttf") format("truetype");
+}
+
+
 

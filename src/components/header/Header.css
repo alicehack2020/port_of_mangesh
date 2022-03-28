@@ -5,10 +5,50 @@
     display: flex;
     justify-content: space-around; 
     text-align: center;
-    
+    height: 4rem;
+    align-items: center; 
+}
+
+h3{
+    font-size: 22px;
+}
+
+h3:hover
+{
+    cursor: pointer;
 }
 .menu_right{
-    width: 55%;
+    width: 35%;
     display: flex;
     justify-content: space-between;
 }
+span{
+     font-family: "Poppins-Medium"; 
+     font-size: 16px;
+}
+
+span:hover
+{
+    cursor: pointer;
+}
+
+.home{
+    font-family: "Poppins-Bold";
+    color:#EEBF63;  
+}
+@media only screen and (max-width: 600px) {
+    .Menu{
+        display: flex;
+        justify-content: space-around; 
+        text-align: center;
+        height: 4rem;
+        justify-content: center;
+        align-items: center; 
+        flex-direction: column;
+    }
+    .menu_right{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
+  }

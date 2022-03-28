@@ -4,13 +4,14 @@ const Header = () => {
   return (
     <div className='Menu'>
       <div>
-        <p className='poppins-bold'>Mangesh Pandit</p>
+        <h3 className='poppins-bold'>Mangesh Pandit</h3>
       </div>
       <div className='menu_right'>
-        <div>About</div>
-        <div>Project</div>
-        <div>Contact</div>
-        <div>Resume</div>
+        <span className='home'>Home</span>
+        <span>About</span>
+        <span>Project</span>
+        <span>Contact</span>
+        <span>Resume</span>
       </div>
     </div>
   )
