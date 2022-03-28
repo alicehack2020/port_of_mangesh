@@ -11,8 +11,8 @@ const About = () => {
         <div className='about_div'>
             <p className='about_line'>Creativity is Intelligence Having Fun...!</p>
             <p className='about_me'>
-            I am currently working in eGlobalDoctors. I am passionate <br/>
-            about solving real-world problems in the field of web <br/>
+            I am currently working in eGlobalDoctors. I am passionate   
+            about solving real-world problems in the field of web  
             development and software engineering.
             </p>
         </div>
