@@ -8,12 +8,14 @@
     justify-content: space-around;
     align-items: center;
     margin: auto;
+    overflow: hidden;
 }
 .working{
     color: white;
     width: 30%;
     font-family: "Poppins-SemiBold";  
     align-items: center;
+    overflow: hidden;
 
 }
 .email_me{
@@ -21,6 +23,7 @@
     height: 4rem;
     width: 12rem;
     color: black;
+    overflow: hidden;
    
 }
 .more_project{
@@ -29,6 +32,7 @@
     height: 4rem;
     width: 12rem;
     margin-left: 40px;
+    overflow: hidden;
 }
 
 @media only screen and (max-width: 600px) {
@@ -39,8 +43,11 @@
     .working{
         color: white;
         width: 80%;
-        font-family: "Poppins-SemiBold";  
+        font-family: "Poppins-Regular";  
         align-items: center;
+        overflow: hidden;
+    font-size: small;
+         
     }
     .contact_btn{
         justify-content: space-evenly;
@@ -51,7 +58,10 @@
         height: auto;
         width: auto;
         color: black;
-        padding: 10px;
+         overflow: hidden;
+         margin-left: 10px;
+         font-size: small;
+         padding: 2px;
 
        
     }
@@ -59,9 +69,17 @@
         border: 2px solid white;
         color: white;
         height: auto;
-        padding: 10px;
-        width: auto;
+         width: auto;
         margin-left: 40px;
+        overflow: hidden;
+        font-size: small;
+        margin-right: 10px;
+        padding: 2px;
     }
+    .work_contact{
+         overflow-y: hidden;
+         padding-bottom: 20px;
+    }
+     
     
   }

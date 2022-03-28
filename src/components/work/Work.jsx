@@ -8,7 +8,7 @@ const Work = () => {
         <div className='working'>
             <h1>Interested working with me?</h1>
         </div>
-        <div className='flex contact_btn'>
+        <div className='flex contact_btn work_contact'>
             
             <div className='email_btn email_me'>
                 <div className='flex '>
