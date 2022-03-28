@@ -9,7 +9,7 @@ const Hero = () => {
     <div>
         <div className='name_main'>
             <h4 className='hey'>Hey</h4>
-            <h1>I’m  <a href='#'>Mangesh Pandit.</a><br/>an Full Stack Developer.</h1>
+            <h1>I’m  <a href='#/'>Mangesh Pandit.</a><br/>an Full Stack Developer.</h1>
             <img src={line} alt="line"  className='line_image'/>
             <p className='line'>It's nice to meet you. I design and code<br/>
             beautifully and I love what I do.</p>
