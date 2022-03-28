@@ -1,0 +1,14 @@
+.poppins-bold{
+    font-family: "Poppins-Bold";
+}
+.Menu{
+    display: flex;
+    justify-content: space-around; 
+    text-align: center;
+    
+}
+.menu_right{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
