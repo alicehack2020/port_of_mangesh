@@ -1,13 +1,14 @@
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
-function App() {
+import About from "./components/about/About";
+import Projects from "./components/project/Projects";
+ function App() {
   return  (
     <>
   <Header/>
   <Hero/>
-  <Hero/>
-  <Hero/>
-  <Hero/>
+  <About/>
+  <Projects/>
   </>
   )
 }
