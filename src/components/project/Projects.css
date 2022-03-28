@@ -1,7 +1,7 @@
 .project_heading{
     display: flex;
-    justify-content: space-between;
-     margin: 0px 80px;
+    justify-content: space-around;
+     
     font-family: "Poppins-Bold";
 
 }
@@ -28,6 +28,10 @@
     grid-template-columns: repeat(3,1fr);
      column-gap: 50px;
      margin: 50px;
+}
+
+.project_list h3{
+    text-align: center;
 }
 .project_view div{
      margin: auto;

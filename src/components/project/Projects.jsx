@@ -14,8 +14,8 @@ const Projects = () => {
         <div className='project_list'>
 
           <div>
-            <div><img src={projectone} alt="projectone"  className='project_image'/></div>
             <h3 className='p_title'>mamaearth clone</h3>
+            <div><img src={projectone} alt="projectone"  className='project_image'/></div>
             <div className='flex project_view'>
               <div className='flex'>
                 <img src={show} alt="" className='p_icon' />
@@ -29,8 +29,8 @@ const Projects = () => {
           </div>
 
           <div>
-            <div><img src={projectone} alt="projectone"  className='project_image'/></div>
             <h3 className='p_title'>mamaearth clone</h3>
+            <div><img src={projectone} alt="projectone"  className='project_image'/></div>
             <div className='flex project_view'>
               <div className='flex'>
                 <img src={show} alt="" className='p_icon' />
@@ -44,8 +44,8 @@ const Projects = () => {
           </div>
 
           <div>
-            <div><img src={projectone} alt="projectone"  className='project_image'/></div>
             <h3 className='p_title'>mamaearth clone</h3>
+            <div><img src={projectone} alt="projectone"  className='project_image'/></div>
             <div className='flex project_view'>
               <div className='flex'>
                 <img src={show} alt="" className='p_icon' />

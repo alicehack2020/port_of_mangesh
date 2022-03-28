@@ -108,7 +108,7 @@
         
     }
     .me{
-         width: 150px;
-         /* display: none; */
+         /* width: 150px; */
+         display: none;
     }
   }
