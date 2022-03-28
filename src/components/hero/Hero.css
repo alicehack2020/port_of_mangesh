@@ -99,7 +99,12 @@
 .hero_main>div{
     padding-top: 20px;
 }
-
+.hero_main h2{
+     display: none;
+}
+.hero_main h1{
+    display: block;
+}
 @media only screen and (max-width: 600px) {
     .hero_main{
         display: flex;
@@ -111,4 +116,13 @@
          /* width: 150px; */
          display: none;
     }
+    .hero_main h1{
+        display: none;
+    }
+    .hero_main h2{
+        font-family: "Poppins-Regular";
+        display: block;
+        margin: auto;
+    }
+
   }
