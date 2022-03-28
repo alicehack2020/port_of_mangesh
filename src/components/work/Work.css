@@ -1,0 +1,67 @@
+.work{
+    background-color: #EEBF63;
+    width: 80%;
+    height: 200px;
+    text-align: center;
+    border-radius: 20px;  
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+.working{
+    color: white;
+    width: 30%;
+    font-family: "Poppins-SemiBold";  
+    align-items: center;
+
+}
+.email_me{
+    background-color: white;
+    height: 4rem;
+    width: 12rem;
+    color: black;
+   
+}
+.more_project{
+    border: 2px solid white;
+    color: white;
+    height: 4rem;
+    width: 12rem;
+    margin-left: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .work{
+        flex-direction: column;
+    }
+    .working{
+        color: white;
+        width: 80%;
+        font-family: "Poppins-SemiBold";  
+        align-items: center;
+    }
+    .contact_btn{
+        justify-content: space-evenly;
+    }
+
+    .email_me{
+        background-color: white;
+        height: auto;
+        width: auto;
+        color: black;
+        padding: 10px;
+
+       
+    }
+    .more_project{
+        border: 2px solid white;
+        color: white;
+        height: auto;
+        padding: 10px;
+        width: auto;
+        margin-left: 40px;
+    }
+    
+  }

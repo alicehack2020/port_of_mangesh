@@ -17,7 +17,7 @@
 .about_div p{
     margin-top: 20px;
     font-family: "Poppins-Regular";
-    font-size: x-large;  
+     
 }
 .about_heading{
     font-family: "Poppins-Bold";   
@@ -29,6 +29,9 @@
 .about_me{
     width: 50%;
     margin: auto;
+    font-size: large;
+    padding: 0px;
+    
 }
 
 /* --------------------skill section------------------- */

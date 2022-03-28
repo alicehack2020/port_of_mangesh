@@ -38,7 +38,6 @@ const About = () => {
         <div className='skill_div'>
         <p>Tool</p>
         <div className='skill'>
-            
             <div><img src={skillicon} alt="skill" className='skill_img'/></div>
             <div><img src={skillicon} alt="skill" className='skill_img'/></div>
             <div><img src={skillicon} alt="skill" className='skill_img'/></div>
