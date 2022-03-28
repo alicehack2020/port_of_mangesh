@@ -65,6 +65,18 @@
     justify-content: space-between;
     margin-left: 10px;
 }
+
+
+.email_btn:hover{
+    cursor: pointer;
+}
+
+
+.cv_btn:hover{
+    cursor: pointer;
+}
+
+
 .contact_btn{
     padding-top: 20px;
 }
