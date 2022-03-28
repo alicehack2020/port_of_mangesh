@@ -1,0 +1,87 @@
+.icon{
+    width: 2rem;
+}
+.hero_main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.me{
+    width: 25rem;
+}
+.line_image{
+    width: 15rem;
+    margin: auto;
+    display: flex;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.hey{
+    color: #828282;
+    font-family: "Poppins-SemiBold";
+}
+.name_main h1{
+    color: #2F2F2F;
+    font-family: "Poppins-SemiBold";
+}
+
+.name_main a{
+    color: #EEBF63;
+}
+.line{
+    font-family: "Poppins-Regular";  
+}
+.contact p{
+    color: #2F2F2F;
+    font-family: "Poppins-Regular";  
+}
+.contact{
+    padding-top: 20px;
+    width: 80%;
+    justify-content: space-evenly;
+}
+.email_btn{
+    color: white;
+    background-color: #EEBF63;
+    font-family: "Poppins-Bold"; 
+    width:10rem;
+    height: 3rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+
+.email_btn div p{
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.cv_btn div p{
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.contact_btn{
+    padding-top: 20px;
+}
+
+.cv_btn{
+    color: black;
+    border: 1px solid  #EEBF63;
+    font-family: "Poppins-Bold"; 
+    width:10rem;
+    height: 3rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.hero_main>div{
+    padding-top: 20px;
+}

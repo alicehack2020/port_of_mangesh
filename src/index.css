@@ -1,6 +1,7 @@
 *{
   padding: 0px;
   margin: 0px;
+  overflow-x: hidden;
 }
 @font-face {
   font-family: "Poppins-Bold";
@@ -44,5 +45,8 @@
    url("./font/Poppins-SemiBoldItalic.ttf") format("truetype");
 }
 
+body{
+  background-color: #F1F1F1;
+}
 
 
