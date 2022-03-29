@@ -47,7 +47,7 @@
 
 body{
   background-color: #F1F1F1;
-  
+  overflow-y: hidden;
 
 }
 a{
@@ -57,6 +57,6 @@ a{
 img{
   pointer-events: none;
   cursor: default;
-  
 }
+
 

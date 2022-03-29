@@ -9,7 +9,7 @@ import gmail from "../../img/gmail.png"
 import "./Connect.css"
 const Connect = () => {
   return (
-    <>
+    <div className='top_main' id='Connect'>
     <div className='connect_main' id='Contact'>
         <a href="https://github.com/alicehack2020"><img src={github} alt=""/></a>
         <a href="https://www.linkedin.com/in/mangesh-pandit-392846153/"><img src={linkdlin} alt="" /></a>
@@ -26,7 +26,7 @@ const Connect = () => {
         <a href="mailto:mangesh2042@gmail.com?subject=Me&body=Hello!"><img src={gmail} alt="" /></a>
         <a href="tel:+91777826975"><img src={mobile} alt="" /></a>
     </div>
-</>
+</div>
 
 
   )

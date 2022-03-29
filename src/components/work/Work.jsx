@@ -4,7 +4,7 @@ import "./Work.css"
 import download from "../../img/download.png"
 const Work = () => {
   return (
-    <div className='work'>
+    <div className='work' id='work'>
       
         <div className='working'>
             <h1>Interested working with me?</h1>

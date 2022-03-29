@@ -9,6 +9,7 @@
     align-items: center;
     margin: auto;
     overflow: hidden;
+    margin-top: 20px;
 }
 .working{
     color: white;

@@ -4,7 +4,8 @@
     place-content: center;
     column-gap: 10px;
     align-items: center;
-    margin-top: 20px;
+   
+    
     
    
 }
@@ -15,6 +16,7 @@
      display: flex;
      justify-content: space-around;
      align-items: center; 
+     margin-top: 40px;
 }
 
 
