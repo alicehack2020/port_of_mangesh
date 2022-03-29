@@ -18,7 +18,7 @@
     overflow: hidden;
 
 }
-.email_me{
+.email_me2{
     background-color: white;
     height: 4rem;
     width: 12rem;
@@ -26,7 +26,10 @@
     overflow: hidden;
    
 }
-.more_project{
+.email_me2 img{
+    background-color: black;
+}
+.more_project2{
     border: 2px solid white;
     color: white;
     height: 4rem;

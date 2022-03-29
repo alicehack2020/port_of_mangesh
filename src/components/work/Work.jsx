@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Work.css"
-import icon from "../../img/javascript.png"
-
+ import email from "../../img/mail.png"
+import download from "../../img/download.png"
 const Work = () => {
   return (
     <div className='work'>
@@ -12,16 +12,16 @@ const Work = () => {
 
         <div className='flex contact_btn work_contact'>
             
-            <div className='email_btn email_me'>
+            <div className='email_btn email_me2'>
                 <div className='flex '>
-                    <img src={icon} alt="icon" className='icon'/>
+                <img src={email} alt="icon" className='icon2'/>
                     <p>Email Me</p>
                 </div>
             </div>
 
-            <div className='cv_btn more_project'>
+            <div className='cv_btn more_project2'>
                 <div className='flex'>
-                    <img src={icon} alt="icon" className='icon'/>
+                <img src={download} alt="icon" className='icon2'/>
                     <p>Download CV</p>
                 </div>
             </div>

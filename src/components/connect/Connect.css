@@ -13,3 +13,29 @@
 .linkdlin:hover{
     background-color: rgb(119, 155, 209);
 }
+.connect_main_mobile{
+    display: none;
+}
+
+ 
+@media only screen and (max-width: 600px) {
+    .connect_main_mobile{
+        display: block;
+    }
+    .connect_main_mobile{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        place-content: center;
+        column-gap: 10px;
+        align-items: center;
+        margin-top: 20px;
+        place-content: center;   
+    }
+    .connect_main_mobile img{
+        width: 40px;
+    }
+    .connect_main{
+        display: none;
+    }
+   
+  }

@@ -48,6 +48,8 @@
         column-gap: 10px;
         align-items: center;
         margin-top: 20px;
+        place-content: center;
+        
     }
     .footer_main{
         display: none;
