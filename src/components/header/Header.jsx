@@ -4,10 +4,12 @@ const Header = () => {
   return (
     <div className='Menu'>
       <div>
+      <a href="#">
         <h3 className='poppins-bold'>Mangesh Pandit</h3>
+        </a>
       </div>
       <div className='menu_right'>
-      <a href="#Home"><span className='home'>Home</span></a>
+      <a href="#"><span className='home'>Home</span></a>
       <a href="#About"> <span>About</span></a>
       <a href="#Project"> <span>Project</span></a>
       <a href="#Contact"> <span>Contact</span></a>

@@ -17,7 +17,7 @@ import firebase from "../../img/firebase.png"
 import styles from "../../img/styled.png"
 const About = () => {
   return (
-    <div className='about_main'>
+    <div className='about_main' id='About'>
         <div className='about_heading'>
             <h1>About Me</h1>
         </div>

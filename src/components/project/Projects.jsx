@@ -7,7 +7,7 @@ import show from "../../img/show.png"
 import live from "../../img/live.png"
 const Projects = () => {
   return (
-    <div className='project_main'>
+    <div className='project_main' id='Project'>
         <div className='project_heading'> 
             <h1>Recent Projects</h1>
             <div className='View_More'>View More</div>
