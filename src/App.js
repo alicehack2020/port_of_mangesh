@@ -4,6 +4,8 @@ import About from "./components/about/About";
 import Projects from "./components/project/Projects";
 import Work from "./components/work/Work";
 import Connect from "./components/connect/Connect";
+import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
  function App() {
   return  (
     <>
@@ -13,6 +15,8 @@ import Connect from "./components/connect/Connect";
   <Projects/>
   <Work/>
   <Connect/>
+  <Contact/>
+  <Footer/>
   </>
   )
 }

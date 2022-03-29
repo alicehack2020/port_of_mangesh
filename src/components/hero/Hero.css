@@ -5,6 +5,10 @@
     display: flex;
     justify-content: space-around;
 }
+.cv_btn{
+    align-items: center;
+    margin-top: 20px;
+}
 
 .me{
     width: 25rem;

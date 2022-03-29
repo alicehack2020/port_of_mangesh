@@ -7,11 +7,16 @@ const Header = () => {
         <h3 className='poppins-bold'>Mangesh Pandit</h3>
       </div>
       <div className='menu_right'>
-        <span className='home'>Home</span>
-        <span>About</span>
-        <span>Project</span>
-        <span>Contact</span>
-        <span>Resume</span>
+      <a href="#"><span className='home'>Home</span></a>
+      <a href="#about">About</a>
+      <a href="#project"> <span>Project</span></a>
+      <a href="#contact"> <span>Contact</span></a>
+      <a href="#top"><span>Resume</span></a>
+       
+        
+       
+      
+        
       </div>
     </div>
   )
