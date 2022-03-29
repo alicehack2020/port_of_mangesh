@@ -26,8 +26,10 @@
 .project_list{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-     column-gap: 50px;
-     margin: 50px;
+    column-gap: 50px;
+    margin: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .project_list h3{
@@ -57,5 +59,6 @@
          column-gap: 50px;
          margin: 50px;
          row-gap: 20px;
+         padding: 0px;
     }
   }
