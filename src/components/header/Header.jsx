@@ -11,7 +11,7 @@ const Header = () => {
       <a href="#about"> <span>About</span></a>
       <a href="#project"> <span>Project</span></a>
       <a href="#contact"> <span>Contact</span></a>
-      <a href="#top"><span>Resume</span></a>
+      <a href="https://firebasestorage.googleapis.com/v0/b/resume-eff78.appspot.com/o/resume.pdf?alt=media&token=f47c5fec-36de-41dd-b7d4-77085b21564c"><span>Resume</span></a>
        
         
        

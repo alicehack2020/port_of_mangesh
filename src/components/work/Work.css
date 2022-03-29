@@ -49,7 +49,7 @@
         font-family: "Poppins-Regular";  
         align-items: center;
         overflow: hidden;
-    font-size: small;
+         font-size: small;
          
     }
     .contact_btn{
@@ -82,6 +82,10 @@
     .work_contact{
          overflow-y: hidden;
          padding-bottom: 20px;
+         flex-direction: column;
+    }
+    .work{
+        display: none;
     }
      
     

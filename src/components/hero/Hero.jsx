@@ -44,10 +44,13 @@ const Hero = () => {
             </div>
 
             <div className='cv_btn'>
+            <a href="https://firebasestorage.googleapis.com/v0/b/resume-eff78.appspot.com/o/resume.pdf?alt=media&token=f47c5fec-36de-41dd-b7d4-77085b21564c">
+
                 <div className='flex'>
                     <img src={download} alt="icon" className='icon2'/>
                     <p>Download CV</p>
                 </div>
+            </a>
             </div>
              
          </div>

@@ -37,6 +37,11 @@ span:hover
     font-family: "Poppins-Bold";
     color:#EEBF63;  
 }
+.menu_right a:hover{
+    color:#EEBF63;  
+}
+
+
 @media only screen and (max-width: 600px) {
     .Menu{
         display: flex;
