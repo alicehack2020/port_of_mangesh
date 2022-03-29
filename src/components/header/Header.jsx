@@ -8,15 +8,11 @@ const Header = () => {
       </div>
       <div className='menu_right'>
       <a href="#Home"><span className='home'>Home</span></a>
-      <a href="#about"> <span>About</span></a>
-      <a href="#project"> <span>Project</span></a>
-      <a href="#contact"> <span>Contact</span></a>
+      <a href="#About"> <span>About</span></a>
+      <a href="#Project"> <span>Project</span></a>
+      <a href="#Contact"> <span>Contact</span></a>
       <a href="https://firebasestorage.googleapis.com/v0/b/resume-eff78.appspot.com/o/resume.pdf?alt=media&token=f47c5fec-36de-41dd-b7d4-77085b21564c"><span>Resume</span></a>
-       
-        
-       
-      
-        
+  
       </div>
     </div>
   )
