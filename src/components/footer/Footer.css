@@ -65,6 +65,9 @@
     .backtop{
         display: none;
     }
+    .footer_main_mobile{
+        margin-bottom: 10px;
+    }
   }
 
   a{
