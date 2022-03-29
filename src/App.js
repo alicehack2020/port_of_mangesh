@@ -6,9 +6,11 @@ import Work from "./components/work/Work";
 import Connect from "./components/connect/Connect";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+// import ContactEmail from "./components/ContactEmail.js";
  function App() {
   return  (
     <>
+    {/* <ContactEmail/> */}
   <Header/>
   <Hero/>
   <About/>
