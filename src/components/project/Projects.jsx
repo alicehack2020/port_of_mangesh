@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Projects.css"
-import projectone from "../../img/projectone.png"
+// import projectone from "../../img/projectone.png"
 import projectpicmobile from "../../img/projectpicmobile.png"
 import projectpicmobilesec from "../../img/projectpicmobilesec.png"
 import show from "../../img/show.png"
