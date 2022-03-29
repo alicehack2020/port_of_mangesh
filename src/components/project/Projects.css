@@ -1,9 +1,16 @@
 .project_heading{
     display: flex;
-    justify-content: space-around;
-     
+    justify-content: space-around; 
     font-family: "Poppins-Bold";
+    
 
+}
+.project_heading{
+    padding-top: 50px;
+}
+.project_main{
+   padding-top: 10rem;
+   margin-top: 30px;
 }
 .View_More{
     color: white;

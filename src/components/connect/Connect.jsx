@@ -10,7 +10,7 @@ import "./Connect.css"
 const Connect = () => {
   return (
     <>
-    <div className='connect_main'>
+    <div className='connect_main' id='Contact'>
         <a href="https://github.com/alicehack2020"><img src={github} alt=""/></a>
         <a href="https://www.linkedin.com/in/mangesh-pandit-392846153/"><img src={linkdlin} alt="" /></a>
         <a href="mailto:mangesh2042@gmail.com?subject=Me&body=Hello!"><img src={gmail} alt="" /></a>
