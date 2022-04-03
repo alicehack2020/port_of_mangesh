@@ -11,6 +11,9 @@
     background-color: #F1F1F1;
     
 }
+.menu_right span,a{
+    overflow-y: hidden;
+}
 
 .Menu{
     position: fixed;
