@@ -42,8 +42,15 @@
 .project_list h3{
     text-align: center;
 }
-.project_view div{
-     margin: auto;
+.project_view a{
+    padding-left: 10px; 
+}
+
+.project_view,div{
+    justify-content: space-between;
+}
+.ptitle{
+    padding: 10px;
 }
 .project_view div p{
     margin: auto;
@@ -59,6 +66,8 @@
 .p_title{
     font-family: "Poppins-SemiBold"; 
 }
+
+ 
 @media only screen and (max-width: 600px) {
     .project_list{
         display: grid;
@@ -69,3 +78,22 @@
          padding: 0px;
     }
   }
+
+ span{
+    font-family: "Poppins-Medium";
+    padding: 10px;
+
+ }
+ ul{
+    font-family: "Poppins-Regular"; 
+    padding-left: 20px;
+
+ }
+ .ptitle{
+    font-family: "Poppins-Regular"; 
+
+ }
+ .more_infos{
+     display: none;
+ }
+ 
