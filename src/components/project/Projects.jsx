@@ -1,8 +1,8 @@
 import React from 'react'
 import "./Projects.css"
 // import projectone from "../../img/projectone.png"
-import projectpicmobile from "../../img/mamearth.png"
-import step1 from "../../img/step1.png"
+import mama from "../../img/mamearth.png"
+import steplogo from "../../img/step1.png"
 import coastal1 from "../../img/coastalmind.png"
 // import projectpicmobilesec from "../../img/projectpicmobilesec.png"
 import show from "../../img/show.png"
@@ -16,7 +16,7 @@ const Projects = () => {
     {
       id:1,
       project_name:"mamaearth clone",
-      project_image:step1,
+      project_image:mama,
       project_code:"https://github.com/alicehack2020/mama-earth-march-2022",
       project_live:"https://mamaearth.netlify.app/",
       project_info:"We have to clone Mamaearth. A website providing toxin-free, natural baby care, skincare, haircare products, and more for babies and everyone else",
@@ -39,7 +39,7 @@ const Projects = () => {
     {
       id:2,
       project_name:"step1 Education",
-      project_image:projectpicmobile,
+      project_image:steplogo,
       project_code:"",
       project_live:"https://play.google.com/store/apps/details?id=com.steponeeducation.user",
       project_info:"We have to clone Mamaearth. A website providing toxin-free, natural baby care, skincare, haircare products, and more for babies and everyone else",
