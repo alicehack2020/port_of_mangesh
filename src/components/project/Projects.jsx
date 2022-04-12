@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Projects.css"
-import projectone from "../../img/projectone.png"
-import mama from "../../img/mamearth.png"
-import steplogo from "../../img/step1.png"
-import coastal1 from "../../img/coastalmind.png"
+// import projectone from "../../img/projectone.png"
+// import mama from "../../img/mamearth.png"
+// import steplogo from "../../img/step1.png"
+// import coastal1 from "../../img/coastalmind.png"
 import projectpicmobilesec from "../../img/projectpicmobilesec.png"
 import projectpicmobile from "../../img/projectpicmobile.png"
 import show from "../../img/show.png"
