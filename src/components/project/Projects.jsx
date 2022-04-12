@@ -4,10 +4,13 @@ import "./Projects.css"
 // import mama from "../../img/mamearth.png"
 // import steplogo from "../../img/step1.png"
 // import coastal1 from "../../img/coastalmind.png"
-import projectpicmobilesec from "../../img/projectpicmobilesec.png"
-import projectpicmobile from "../../img/projectpicmobile.png"
+// import projectpicmobilesec from "../../img/projectpicmobilesec.png"
+// import projectpicmobile from "../../img/projectpicmobile.png"
 import show from "../../img/show.png"
 import live from "../../img/live.png"
+import step from "../../img/newicon/step.png"
+import coastalmind from "../../img/newicon/coastal.png"
+import mama from "../../img/newicon/mama.png"
 const Projects = () => {
 
   
@@ -17,7 +20,7 @@ const Projects = () => {
     {
       id:1,
       project_name:"mamaearth clone",
-      project_image:projectpicmobile,
+      project_image:mama,
       project_code:"https://github.com/alicehack2020/mama-earth-march-2022",
       project_live:"https://mamaearth.netlify.app/",
       project_info:"We have to clone Mamaearth. A website providing toxin-free, natural baby care, skincare, haircare products, and more for babies and everyone else",
@@ -40,7 +43,7 @@ const Projects = () => {
     {
       id:2,
       project_name:"step1 Education",
-      project_image:projectpicmobilesec,
+      project_image:step,
       project_code:"",
       project_live:"https://play.google.com/store/apps/details?id=com.steponeeducation.user",
       project_info:"We have to clone Mamaearth. A website providing toxin-free, natural baby care, skincare, haircare products, and more for babies and everyone else",
@@ -65,7 +68,7 @@ const Projects = () => {
     {
       id:3,
       project_name:"Coastal Mind",
-      project_image:projectpicmobilesec,
+      project_image:coastalmind,
       project_code:"",
       project_live:"https://play.google.com/store/apps/details?id=com.akarz",
       project_info:"This app is built for 1st to 10th standard students who want to learn at a low cost. This app content semi, English, Marathi medium students content",
