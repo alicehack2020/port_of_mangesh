@@ -21,8 +21,8 @@ const Hero = () => {
             beautifully and I love what I do.</p>
             <div className='flex contact'>
                 <p>Connect Me</p>
-                <a href="https://github.com/alicehack2020"><img src={github} alt="icon" className='icon'/></a>
-                <a href="https://www.linkedin.com/in/mangesh-pandit-392846153/"><img src={linkdlin}alt="icon" className='icon' /></a>
+                <a href="https://github.com/alicehack2020" target="_blank"><img src={github} alt="icon" className='icon'/></a>
+                <a href="https://www.linkedin.com/in/mangesh-pandit-392846153/" target="_blank"><img src={linkdlin}alt="icon" className='icon' /></a>
                 <a href="tel:+91777826975"><img src={mobile} alt="icon" className='icon' /></a>
             </div>
         </div>
@@ -31,7 +31,7 @@ const Hero = () => {
          <div className='flex contact_btn'>
 
             <div className='email_btn'>
-            <a href="mailto:mangesh2042@gmail.com?subject=Me&body=Hello!">
+            <a href="mailto:mangesh2042@gmail.com?subject=Me&body=Hello!" target="_blank">
 
                 <div className='flex '>
                 <img src={email} alt="icon" className='icon2'/> 
@@ -44,7 +44,7 @@ const Hero = () => {
             </div>
 
             <div className='cv_btn'>
-            <a href="https://firebasestorage.googleapis.com/v0/b/resume-eff78.appspot.com/o/resume.pdf?alt=media&token=f47c5fec-36de-41dd-b7d4-77085b21564c">
+            <a href="https://firebasestorage.googleapis.com/v0/b/resume-eff78.appspot.com/o/resume.pdf?alt=media&token=f47c5fec-36de-41dd-b7d4-77085b21564c" target="_blank">
 
                 <div className='flex'>
                     <img src={download} alt="icon" className='icon2'/>

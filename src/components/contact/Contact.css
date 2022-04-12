@@ -5,13 +5,16 @@
     align-items: center;
     margin-top: 20px;
     padding-bottom: 20px;
+    padding-top: 80px;
 }
 .contact_form{
     margin: auto;
     text-align: center;
     padding-top: 50px;
 }
- 
+ .lets{
+     padding-top: 15px;
+ }
 .btn_conect{
     background-color: #F5BF75;
     text-align: center;

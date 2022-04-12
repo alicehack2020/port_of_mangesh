@@ -3,12 +3,14 @@
     grid-template-columns: repeat(7,100px);
     place-content: center;
     column-gap: 10px;
-    align-items: center;
-   
-    
-    
-   
+    align-items: center;  
+    display: none; 
 }
+
+.f_main{
+    display: none;
+}
+
 .footer_main img{
     height: 40px;
 }
@@ -17,6 +19,7 @@
      justify-content: space-around;
      align-items: center; 
      margin-top: 40px;
+     display: none; 
 }
 
 
@@ -57,7 +60,9 @@
         display: none;
     }
 
-    
+    .f_main{
+        display: block;
+    }
     .footer_main_mobile img{
         height: 20px;
     }

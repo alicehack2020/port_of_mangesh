@@ -25,9 +25,9 @@ const About = () => {
         <div className='about_div'>
             <p className='about_line'>Creativity is Intelligence Having Fun...!</p>
             <p className='about_me'>
-            I am passionate   
-            about solving real-world problems in the field of web  
-            development and software engineering.
+            Experienced with all stages of the development cycle for
+            dynamic web projects. Well-versed in numerous
+            programming languages including HTML5, JavaScript, CSS
             </p>
         </div>
 

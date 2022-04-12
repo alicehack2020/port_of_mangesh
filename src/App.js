@@ -13,8 +13,7 @@ import Footer from "./components/footer/Footer";
   <Hero/>
   <About/>
   <Projects/>
-  <Work/>
-  <Connect/>
+  {/* <Work/> */}
   <Contact/>
   <Footer/>
   </>

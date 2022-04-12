@@ -4,17 +4,18 @@ const Header = () => {
   return (
     <div className='Menu'>
       <div>
-      <a href="/#">
-        <h3 className='poppins-bold'>Mangesh Pandit</h3>
+        <a href="/#">
+          <h3 className='poppins-bold'>Mangesh Pandit</h3>
         </a>
       </div>
       <div className='menu_right'>
-      <a href="/#"><span className='home'>Home</span></a>
-      <a href="#About"> <span>About</span></a>
-      <a href="#Project"> <span>Project</span></a>
-      <a href="#Connect" className='contactmobile'> <span>Contact</span></a>
-      <a href="#work" className='web'> <span>Contact</span></a>
-      <a href="https://firebasestorage.googleapis.com/v0/b/resume-eff78.appspot.com/o/resume.pdf?alt=media&token=f47c5fec-36de-41dd-b7d4-77085b21564c"><span>Resume</span></a>
+        <a href="/#"><span className='home'>Home</span></a>
+        <a href="#About"> <span>About</span></a>
+        <a href="#Project"> <span>Project</span></a>
+        <a href="#Skill"> <span>Skill</span></a>
+        <a href="#Connect" className='contactmobile'> <span>Contact</span></a>
+        <a href="#work" className='web'> <span>Contact</span></a>
+        <a href="https://firebasestorage.googleapis.com/v0/b/resume-eff78.appspot.com/o/resume.pdf?alt=media&token=f47c5fec-36de-41dd-b7d4-77085b21564c" target="_blank"><span>Resume</span></a>
       </div>
     </div>
   )

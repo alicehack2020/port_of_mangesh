@@ -3,12 +3,14 @@
 }
 .Menu{
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-between; 
     text-align: center;
     height: 4rem;
     align-items: center; 
     margin-bottom: 3rem;
     background-color: #F1F1F1;
+    margin-left: 9rem;
+    margin-right: 5rem;
     
 }
 .menu_right span,a{
