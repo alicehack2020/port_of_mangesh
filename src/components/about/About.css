@@ -6,8 +6,20 @@
     place-content: center;
     text-align: center;
     width: 100%;
-    padding-top: 100px;
+    padding-top: 50px;
+    padding-left: 1.5rem; 
+    padding-right: 1.5rem;
+    padding-bottom: 100px;
+    padding-top: 150px;
+    
+    
 }
+
+.about_div{
+  margin-top: 80px;  
+}
+
+
 .about_div{
     background-color: #E9E9E9;
     width: 70rem;
@@ -38,10 +50,7 @@
 
 @media only screen and (max-width: 600px) {
     
-    .skill_div>div{
-        display: grid;
-        grid-template-columns: repeat(5,50px);
-    }
+    
     .about_div p{
         margin-top: 20px;
         font-family: "Poppins-Regular";
@@ -64,20 +73,25 @@
         padding-bottom: 10px; 
         padding: 0px;
     }
+    .about_div{
+        margin-top: 10px;  
+      }
+      
+    .about_main{
+        margin: auto;
+        padding: 0px;
+        justify-content: center;
+        display: grid;
+        place-content: center;
+        text-align: center;
+        width: 100%;
+        padding-top: 10px;
+         
+        padding-right: 1rem;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        
+        
+    }
   }
 
-
-.skill_div{
-    text-align: left;
-    font-family: "Poppins-Regular";
-    margin: auto;
-}
-.skill{
-    display: grid;
-    grid-template-columns: repeat(10,3rem);
-    column-gap: 20px;
-    margin: auto;
-}
-.skill_img{
-    width: 100%;
-}

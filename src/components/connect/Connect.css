@@ -1,8 +1,8 @@
 .connect_main{
     display: grid;
-    grid-template-columns: repeat(7,100px);
+    grid-template-columns: repeat(7,auto);
     place-content: center;
-    column-gap: 20px;
+    column-gap: 2rem;
     align-items: center;
     width: 100%;
      
@@ -10,10 +10,10 @@
     
 }
 .top_main{
-    padding-top: 20px;
+    padding-top: 100px;
 }
 .connect_main img{
-    height: 50px;
+    height: 40px;
 }
 .linkdlin:hover{
     background-color: rgb(119, 155, 209);
@@ -44,4 +44,13 @@
         display: none;
     }
    
+  }
+
+  .hide {
+    display: none;
+  }
+      
+  .myDIV:hover + .hide {
+    display: block;
+    color: red;
   }

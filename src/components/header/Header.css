@@ -3,12 +3,14 @@
 }
 .Menu{
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-between; 
     text-align: center;
     height: 4rem;
     align-items: center; 
     margin-bottom: 3rem;
     background-color: #F1F1F1;
+    padding-left: 9rem; 
+    padding-right: 7.5rem; 
     
 }
 .menu_right span,a{
@@ -66,6 +68,8 @@ span:hover
         justify-content: center;
         align-items: center; 
         flex-direction: column;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
     .menu_right{
         width: 100%;

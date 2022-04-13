@@ -1,12 +1,16 @@
 import React from 'react'
 import "./Projects.css"
 // import projectone from "../../img/projectone.png"
-import mama from "../../img/mamearth.png"
-import steplogo from "../../img/step1.png"
-import coastal1 from "../../img/coastalmind.png"
+// import mama from "../../img/mamearth.png"
+// import steplogo from "../../img/step1.png"
+// import coastal1 from "../../img/coastalmind.png"
 // import projectpicmobilesec from "../../img/projectpicmobilesec.png"
+// import projectpicmobile from "../../img/projectpicmobile.png"
 import show from "../../img/show.png"
 import live from "../../img/live.png"
+import step from "../../img/newicon/step.png"
+import coastalmind from "../../img/newicon/coastal.png"
+import mama from "../../img/newicon/mama.png"
 const Projects = () => {
 
   
@@ -19,7 +23,7 @@ const Projects = () => {
       project_image:mama,
       project_code:"https://github.com/alicehack2020/mama-earth-march-2022",
       project_live:"https://mamaearth.netlify.app/",
-      project_info:"We have to clone Mamaearth. A website providing toxin-free, natural baby care, skincare, haircare products, and more for babies and everyone else",
+      project_info:" \n \n mama earth",
       view_code:"View Code",
       live_demo:"Live Preview",  
       features_1:"1.Home Page",
@@ -39,11 +43,11 @@ const Projects = () => {
     {
       id:2,
       project_name:"step1 Education",
-      project_image:steplogo,
+      project_image:step,
       project_code:"",
       project_live:"https://play.google.com/store/apps/details?id=com.steponeeducation.user",
-      project_info:"We have to clone Mamaearth. A website providing toxin-free, natural baby care, skincare, haircare products, and more for babies and everyone else",
-      view_code:"This application is real project can't share code",
+      project_info:"Step1 education app is useful for learners of all age groups.",
+      view_code:"App in Production",
       live_demo:"Live Preview",
 
      
@@ -56,19 +60,19 @@ const Projects = () => {
       features_5:"5.Firebase notification",
       features_6:"6.Online Notes",
        
-      responsibilities1:" 1.Worked in payment gateway Integration ",
-      responsibilities2:" 2.Build backend and Mobile Desing,Notification Integration",
-      responsibilities3:" 3. A collaborative project built by a team of 3 executed in 3 months.",
+      responsibilities1:" Build backend and Mobile Desing,Notification Integration ",
+      responsibilities2:"",
+      responsibilities3:"A collaborative   built by a team of 3 executed in 3 months.",
           
     },
     {
       id:3,
       project_name:"Coastal Mind",
-      project_image:coastal1,
+      project_image:coastalmind,
       project_code:"",
       project_live:"https://play.google.com/store/apps/details?id=com.akarz",
-      project_info:"Nowadays educational knowledge and competition is growing in fast motion. Educational development among students is only possible with the help of private competitive examinations and extra teaching.This app is built for 1st to 10th standard students who want to learn at a low cost. This app content semi, English, Marathi medium students content",
-      view_code:"This application is real project can't share code",
+      project_info:"This app is built for 1st to 10th standard students who want to learn at a low cost. This app content semi, English, Marathi medium students content",
+      view_code:"App in Production",
       live_demo:"Live Preview",
 
      
@@ -81,9 +85,9 @@ const Projects = () => {
       features_5:" 5.Online Exam,Video Lectures",
       features_6:"use full for 1st to 10th standards student",
        
-      responsibilities1:"  1. Worked in payment gateway Integration,Deployment on playstore",
-      responsibilities2:" 2.Build backend and Mobile Desing,Notification Integration",
-      responsibilities3:"A collaborative project built by a team of 3 executed in 3 months.",
+      responsibilities1:"payment gateway Integration,Deployment on playstore",
+      responsibilities2:"",
+      responsibilities3:"A  project built by a team of 3 executed in 3 months.",
           
     }
 
@@ -114,18 +118,16 @@ list.map((ele)=>{
               <p className='ptitle'>{ele.project_info}</p>
               <span>feature</span>
               <ul>
-                <li>{ele.features_1}</li>
-                <li>{ele.features_2}</li>
-                <li>{ele.features_3}</li>
-                <li>{ele.features_4}</li>
-                <li>{ele.features_5}</li>
-                <li>{ele.features_6}</li>
+                <li>{ele.features_1+" || "+ ele.features_2 }</li>
+                <li>{ele.features_3 +"|| "+ele.features_4}</li>
+                <li>{ele.features_5+" || "+ ele.features_6}</li>
+               
               </ul>
               <span>{ele.tech}</span><br />
               <span>Areas of responsibility:</span>
               <ul>
-                <li>{ele.responsibilities1}</li>
-                <li>{ele.responsibilities2}</li>
+                <li>{ele.responsibilities1+"||"+ele.responsibilities2}</li>
+                
                 <li>{ele.responsibilities3}</li>
                </ul>
 
@@ -134,7 +136,7 @@ list.map((ele)=>{
               <div className='flex project_view'>
 
                 <a href={ele.project_code} target="_blank" rel="noopener noreferrer">
-                <div className='flex'>
+                <div className='flex code_button'>
                     <img src={show} alt="" className='p_icon' />
                     <p>{ele.view_code}</p>
                   </div>
@@ -144,7 +146,7 @@ list.map((ele)=>{
                 onClick={()=>{
                   
                 }}>
-                  <div className='flex'>
+                  <div className='flex code_button'>
                     <img src={live} alt="" className='p_icon' />
                     <p>{ele.live_demo}</p>
                   </div>

@@ -3,12 +3,14 @@
     grid-template-columns: repeat(7,100px);
     place-content: center;
     column-gap: 10px;
-    align-items: center;
-   
-    
-    
-   
+    align-items: center;  
+    display: none; 
 }
+
+.f_main{
+    display: none;
+}
+
 .footer_main img{
     height: 40px;
 }
@@ -17,6 +19,7 @@
      justify-content: space-around;
      align-items: center; 
      margin-top: 40px;
+     display: none; 
 }
 
 
@@ -57,7 +60,9 @@
         display: none;
     }
 
-    
+    .f_main{
+        display: block;
+    }
     .footer_main_mobile img{
         height: 20px;
     }
@@ -75,4 +80,21 @@
   a{
       text-decoration: none;
       color: black;
+  }
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgba(252, 250, 250, 0);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
   }
