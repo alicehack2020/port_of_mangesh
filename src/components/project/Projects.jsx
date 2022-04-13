@@ -100,8 +100,8 @@ const Projects = () => {
   return (
     <div className='project_main' id='Project'>
         <div className='project_heading'> 
-            <h1>Recent Projects</h1>
-            <div className='View_More'>View More</div>
+            <h1>Recent Projects</h1> 
+            {/* <div className='View_More'>View More</div> */}
         </div>
 
         <div className='project_list'>

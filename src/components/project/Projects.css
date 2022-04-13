@@ -1,9 +1,11 @@
 .project_heading{
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-evenly; 
     font-family: "Poppins-Bold";
     padding-left: 9rem; 
     padding-right: 7.5rem;
+    margin: auto;
+    
 }
 .project_heading{
     padding-top: 50px;
@@ -35,6 +37,7 @@
     grid-template-columns: repeat(2,1fr);
     column-gap: 50px;
     margin: 50px;
+    row-gap: 50px;
     padding-left: 80px;
     padding-right: 80px;
 }
@@ -91,6 +94,7 @@
         font-family: "Poppins-Bold";
         padding-left: 1rem; 
         padding-right: 1rem;
+
         
     
     }
