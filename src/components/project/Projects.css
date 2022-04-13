@@ -4,8 +4,6 @@
     font-family: "Poppins-Bold";
     padding-left: 9rem; 
     padding-right: 7.5rem;
-    
-
 }
 .project_heading{
     padding-top: 50px;
@@ -47,6 +45,9 @@
 .project_view a{
     padding-left: 10px; 
 }
+.project_view{
+    padding-top: 10px;
+}
 
 .project_view,div{
     justify-content: space-between;
@@ -68,7 +69,11 @@
 .p_title{
     font-family: "Poppins-SemiBold"; 
 }
-
+.code_button{
+    padding: 10px;
+    background-color: #EEBF63;
+    border-radius: 5px;
+}
  
 @media only screen and (max-width: 600px) {
     .project_list{
@@ -78,6 +83,16 @@
          margin: 50px;
          row-gap: 20px;
          padding: 0px;
+    }
+
+    .project_heading{
+        display: flex;
+        justify-content: space-between; 
+        font-family: "Poppins-Bold";
+        padding-left: 1rem; 
+        padding-right: 1rem;
+        
+    
     }
   }
 

@@ -15,30 +15,30 @@ const Connect = () => {
     <div className='connect_main' id='Contact'>
    
      <Tooltip title="alicehack2020">
-         <a href="https://github.com/alicehack2020"><img src={github} alt=""/></a>
+         <a href="https://github.com/alicehack2020" target="_blank"  rel="noreferrer" ><img src={github} alt=""/></a>
      </Tooltip>
 
        <Tooltip title="mangesh-pandit-392846153">
-       <a href="https://www.linkedin.com/in/mangesh-pandit-392846153/"><img src={linkdlin} alt="" /></a>
+       <a href="https://www.linkedin.com/in/mangesh-pandit-392846153/" target="_blank"   rel="noreferrer" ><img src={linkdlin} alt="" /></a>
      </Tooltip>  
         
  
         <div>
           <Tooltip title="mangesh2042@gmail.com">
-           <a href="mailto:mangesh2042@gmail.com?subject=Me&body=Hello!"><img src={gmail} alt="" /></a>
+           <a href="mailto:mangesh2042@gmail.com?subject=Me&body=Hello!" target="_blank"  rel="noreferrer" ><img src={gmail} alt="" /></a>
            </Tooltip>  
         </div>
 
         <Tooltip title="mangesh2042">
-        <a href="https://m.facebook.com/mangesh2042"><img src={facebook} alt="" /></a>
+        <a href="https://m.facebook.com/mangesh2042" target="_blank"  rel="noreferrer" ><img src={facebook} alt="" /></a>
         </Tooltip>  
 
         <Tooltip title="Mangesh41559708">
-        <a href="https://twitter.com/Mangesh41559708"><img src={twitter} alt="" /></a>
+        <a href="https://twitter.com/Mangesh41559708" target="_blank"  rel="noreferrer" ><img src={twitter} alt="" /></a>
         </Tooltip> 
 
         <Tooltip title="7775826975">
-        <a href="//api.whatsapp.com/send?phone=917775826975&text=Hello"><img src={whatsapp} alt="" /></a>
+        <a href="//api.whatsapp.com/send?phone=917775826975&text=Hello" target="_blank"  rel="noreferrer" ><img src={whatsapp} alt="" /></a>
         </Tooltip> 
 
         <Tooltip title="7775826975">
@@ -47,9 +47,9 @@ const Connect = () => {
     </div>
 
     <div className='connect_main_mobile'>
-        <a href="https://github.com/alicehack2020"><img src={github} alt=""/></a>
-        <a href="https://www.linkedin.com/in/mangesh-pandit-392846153/"><img src={linkdlin} alt="" /></a>
-        <a href="mailto:mangesh2042@gmail.com?subject=Me&body=Hello!"><img src={gmail} alt="" /></a>
+        <a href="https://github.com/alicehack2020" target="_blank"  rel="noreferrer"  ><img src={github} alt=""/></a>
+        <a href="https://www.linkedin.com/in/mangesh-pandit-392846153/" target="_blank"  rel="noreferrer" ><img src={linkdlin} alt="" /></a>
+        <a href="mailto:mangesh2042@gmail.com?subject=Me&body=Hello!" target="_blank"  rel="noreferrer" ><img src={gmail} alt="" /></a>
         <a href="tel:+91777826975"><img src={mobile} alt="" /></a>
     </div>
     

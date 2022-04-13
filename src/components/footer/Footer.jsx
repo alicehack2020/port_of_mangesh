@@ -42,23 +42,23 @@ const Footer = () => {
      </div>
       
       <div className='footer_main'>
-        <a href="https://github.com/alicehack2020"><img src={github} alt=""/></a>
-        <a href="https://www.linkedin.com/in/mangesh-pandit-392846153/"><img src={linkdlin} alt="" /></a>
-        <a href="mailto:mangesh2042@gmail.com?subject=Me&body=Hello!"><img src={gmail} alt="" /></a>
-        <a href="https://m.facebook.com/mangesh2042"><img src={facebook} alt="" /></a>
-        <a href="https://twitter.com/Mangesh41559708"><img src={twitter} alt="" /></a>
-        <a href="//api.whatsapp.com/send?phone=917775826975&text=Hello"><img src={whatsapp} alt="" /></a>
-        <a href="tel:+91777826975"><img src={mobile} alt="" /></a>
+        <a   href="https://github.com/alicehack2020" target="_blank"  rel="noreferrer"><img src={github} alt=""/></a>
+        <a    href="https://www.linkedin.com/in/mangesh-pandit-392846153/" target="_blank"  rel="noreferrer"><img src={linkdlin} alt=""  /></a>
+        <a   href="mailto:mangesh2042@gmail.com?subject=Me&body=Hello!" target="_blank"  rel="noreferrer"><img src={gmail} alt=""   /></a>
+        <a    href="https://m.facebook.com/mangesh2042"  target="_blank" rel="noreferrer"><img src={facebook} alt=""/></a>
+        <a   href="https://twitter.com/Mangesh41559708" target="_blank" rel="noreferrer"><img src={twitter} alt="" /></a>
+        <a   href="//api.whatsapp.com/send?phone=917775826975&text=Hello" target="_blank" rel="noreferrer"><img src={whatsapp} alt="" /></a>
+        <a   href="tel:+91777826975"><img src={mobile} alt="" rel="noreferrer"/></a>
     </div>
 
     
 
 
-    <div className='footer_main_mobile'>
-        <a href="https://github.com/alicehack2020"><img src={github} alt=""/></a>
-        <a href="https://www.linkedin.com/in/mangesh-pandit-392846153/"><img src={linkdlin} alt="" /></a>
-        <a href="mailto:mangesh2042@gmail.com?subject=Me&body=Hello!"><img src={gmail} alt="" /></a>
-        <a href="tel:+91777826975"><img src={mobile} alt="" /></a>
+    <div className='footer_main_mobile' target="_blank">
+        <a  href="https://github.com/alicehack2020" target="_blank" rel="noreferrer"><img src={github} alt=""/></a>
+        <a  href="https://www.linkedin.com/in/mangesh-pandit-392846153/" target="_blank" rel="noreferrer"><img src={linkdlin} alt="" /></a>
+        <a  href="mailto:mangesh2042@gmail.com?subject=Me&body=Hello!" target="_blank" rel="noreferrer"><img src={gmail} alt="" /></a>
+        <a href="tel:+91777826975" target="_blank" rel="noreferrer"><img src={mobile} alt="" /></a>
     </div>
 
 

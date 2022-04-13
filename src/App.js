@@ -6,14 +6,17 @@ import Projects from "./components/project/Projects";
 // import Connect from "./components/connect/Connect";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
-import Skill from "./components/skill/Skill";
+// import Skill from "./components/skill/Skill";
+import SkillAdvace from "./components/SkillAdvace";
  function App() {
   return  (
     <>
+  
   <Header/>
   <Hero/>
   <About/>
-  <Skill/>
+  <SkillAdvace/>
+  {/* <Skill/> */}
   <Projects/>
   {/* <Work/> */}
   <Contact/>

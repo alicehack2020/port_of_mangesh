@@ -23,7 +23,7 @@ const Projects = () => {
       project_image:mama,
       project_code:"https://github.com/alicehack2020/mama-earth-march-2022",
       project_live:"https://mamaearth.netlify.app/",
-      project_info:"We have to clone Mamaearth. A website providing toxin-free, natural baby care, skincare, haircare products, and more for babies and everyone else",
+      project_info:" \n \n mama earth",
       view_code:"View Code",
       live_demo:"Live Preview",  
       features_1:"1.Home Page",
@@ -46,8 +46,8 @@ const Projects = () => {
       project_image:step,
       project_code:"",
       project_live:"https://play.google.com/store/apps/details?id=com.steponeeducation.user",
-      project_info:"We have to clone Mamaearth. A website providing toxin-free, natural baby care, skincare, haircare products, and more for babies and everyone else",
-      view_code:"This application is real project can't share code",
+      project_info:"Step1 education app is useful for learners of all age groups.",
+      view_code:"App in Production",
       live_demo:"Live Preview",
 
      
@@ -72,7 +72,7 @@ const Projects = () => {
       project_code:"",
       project_live:"https://play.google.com/store/apps/details?id=com.akarz",
       project_info:"This app is built for 1st to 10th standard students who want to learn at a low cost. This app content semi, English, Marathi medium students content",
-      view_code:"This application is real project can't share code",
+      view_code:"App in Production",
       live_demo:"Live Preview",
 
      
@@ -136,7 +136,7 @@ list.map((ele)=>{
               <div className='flex project_view'>
 
                 <a href={ele.project_code} target="_blank" rel="noopener noreferrer">
-                <div className='flex'>
+                <div className='flex code_button'>
                     <img src={show} alt="" className='p_icon' />
                     <p>{ele.view_code}</p>
                   </div>
@@ -146,7 +146,7 @@ list.map((ele)=>{
                 onClick={()=>{
                   
                 }}>
-                  <div className='flex'>
+                  <div className='flex code_button'>
                     <img src={live} alt="" className='p_icon' />
                     <p>{ele.live_demo}</p>
                   </div>
