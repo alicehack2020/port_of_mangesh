@@ -1,26 +1,18 @@
-import Header from "./components/header/Header";
+import Projects from "./components/project/Projects";
+import NavBar from "./components/navBar/navBar";
 import Hero from "./components/hero/Hero";
 import About from "./components/about/About";
-import Projects from "./components/project/Projects";
-// import Work from "./components/work/Work";
-// import Connect from "./components/connect/Connect";
-import Contact from "./components/contact/Contact";
-import Footer from "./components/footer/Footer";
-// import Skill from "./components/skill/Skill";
-import SkillAdvace from "./components/SkillAdvace";
- function App() {
+function App() {
   return  (
     <>
   
-  <Header/>
-  <Hero/>
-  <About/>
-  <SkillAdvace/>
-  {/* <Skill/> */}
+      <NavBar/>
+      <Hero />
+      <About/>
+     
   <Projects/>
-  {/* <Work/> */}
-  <Contact/>
-  <Footer/>
+ 
+   
   </>
   )
 }

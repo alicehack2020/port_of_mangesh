@@ -1,16 +1,11 @@
 import React from 'react'
 import "./Projects.css"
-// import projectone from "../../img/projectone.png"
-// import mama from "../../img/mamearth.png"
-// import steplogo from "../../img/step1.png"
-// import coastal1 from "../../img/coastalmind.png"
-// import projectpicmobilesec from "../../img/projectpicmobilesec.png"
-// import projectpicmobile from "../../img/projectpicmobile.png"
 import show from "../../img/show.png"
 import live from "../../img/live.png"
 import step from "../../img/newicon/step.png"
 import coastalmind from "../../img/newicon/coastal.png"
 import mama from "../../img/newicon/mama.png"
+import { Heading } from '@chakra-ui/react'
 const Projects = () => {
 
   
@@ -102,8 +97,8 @@ const Projects = () => {
         <div className='project_heading'> 
             <h1>Recent Projects</h1> 
             {/* <div className='View_More'>View More</div> */}
-        </div>
-
+      </div>
+ 
         <div className='project_list'>
 {
 list.map((ele)=>{
