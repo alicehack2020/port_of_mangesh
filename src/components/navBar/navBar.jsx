@@ -28,7 +28,7 @@ const NavBar = () => {
               <Button   rel="noreferrer" variant='ghost' isActive={selected === 'Home' ? true:false} onClick={()=>setSelected('Home')}>Home</Button>
                <HStack spacing='20px'>
                   <ButtonGroup variant='ghost'>
-                      <Button isActive={selected === 'About' ? true:false} onClick={()=>setSelected('About')}  display={{sm:'none',md:'block'}}>About</Button>
+                      <Button isActive={selected === 'About' ? true:false} onClick={()=>setSelected('About')}  display={{sm:'none',md:'none',lg:'block'}}>About</Button>
                       <Button  isActive={selected === 'Projects' ? true:false} onClick={()=>setSelected('Projects')}>Projects</Button>
                       <Button isActive={selected === 'Skill' ? true:false} onClick={()=>setSelected('Skill')}>Skill</Button>
                       <Button isActive={selected === 'contact' ? true:false} onClick={()=>setSelected('contact')}>Contact</Button>
