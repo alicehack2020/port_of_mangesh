@@ -1,4 +1,4 @@
-import { Box, Card, CardBody, CardFooter, CardHeader, Center, Container, Flex, Grid, GridItem, Heading, List, ListItem, SimpleGrid } from '@chakra-ui/react'
+import { Card, CardBody, CardFooter, CardHeader, Center, Container, Flex, Grid, GridItem, Heading, List, ListItem, SimpleGrid } from '@chakra-ui/react'
 import React from 'react'
 
 const About = () => {
