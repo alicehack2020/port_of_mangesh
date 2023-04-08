@@ -1,5 +1,4 @@
 import React from 'react'
-import "./Projects.css"
 import show from "../../img/show.png"
 import live from "../../img/live.png"
 import step from "../../img/newicon/step.png"
@@ -49,7 +48,24 @@ const Projects = () => {
         {
           img: javascriptImage,
           name:'JavaScript'
+        },
+        {
+          img: javascriptImage,
+          name:'JavaScript'
+        },
+        {
+          img: javascriptImage,
+          name:'JavaScript'
+        },
+        {
+          img: javascriptImage,
+          name:'JavaScript'
+        },
+        {
+          img: javascriptImage,
+          name:'JavaScript'
         }
+         
       ]  
     },
 
@@ -162,17 +178,17 @@ const Projects = () => {
                 
                 <Box alignItems={'center'}>
                     <Text fontWeight={'bold'}>TeckStack:</Text>
-                  <SimpleGrid columns={'5'} spacing={'15px'} >
+                  <SimpleGrid minChildWidth={'50px'} spacing={'5px'} >
                     {
                       e.stack.map((e) => {
                         return (<>
-                          <Card m={'5px'}>
-                          <Tooltip label={e.name}>
-                            <Center >
+                          {/* <Card m={'2px'} p={'10px'} w={'80px'} h={'70px'}> */}
+                            <Tooltip label={e.name}>
+                              <Center>
                                 <Avatar src={e.img}></Avatar>
-                              </Center>
+                                </Center>
                             </Tooltip>
-                        </Card>
+                        {/* </Card> */}
                         </>)
                       })
                     }
@@ -180,20 +196,29 @@ const Projects = () => {
                  </Box>
               </CardBody>
               <CardFooter>
-                <a href={e.project_live} target="_blank" rel="noreferrer">
+                <Flex w={'100%'} flexDirection={{ base: 'column', md: 'column',lg:'row'}} justifyContent={'space-between'}>
+                  <Box >
+                  <a href={e.project_live} target="_blank" rel="noreferrer">
                   <Button leftIcon={<ViewIcon />}>{e.live_demo}</Button>
-                </a>
-                {
-                  e.code===true?<>
-                  <a href={e.project_code} target="_blank" rel="noreferrer">
-                  <Button leftIcon={<ViewIcon />} variant={'outline'}>{e.view_code}</Button>
                   </a>
-                  </> : <>
-                  <Tooltip label={'This is Producation app'}>
-                  <Button isDisabled leftIcon={<LockIcon />}  variant={'outline'}>View Code</Button>
-                  </Tooltip>
-                  </> 
+                  </Box>
+                  <Box mt={{base:'10px',md:'10px',lg:'0px'}}>
+                  {
+                    e.code===true?<>
+                    <a href={e.project_code} target="_blank" rel="noreferrer">
+                    <Button leftIcon={<ViewIcon />} variant={'outline'}>{e.view_code}</Button>
+                    </a>
+                    </> : <>
+                    <Tooltip label={'This is Producation app'}>
+                    <Button isDisabled leftIcon={<LockIcon />}  variant={'outline'}>View Code</Button>
+                    </Tooltip>
+                    </> 
                 }
+                  </Box>
+                
+                
+                </Flex>
+                
               </CardFooter>
             </Card>)
           })

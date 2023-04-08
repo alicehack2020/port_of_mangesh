@@ -7,10 +7,10 @@ function App() {
   return  (
     <>
   
-      <NavBar/>
+      {/* <NavBar/>
       <Hero />
       <About/>
-      <Skill/>
+      <Skill/> */}
      
   <Projects/>
  
