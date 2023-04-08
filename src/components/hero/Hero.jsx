@@ -35,7 +35,7 @@ const Hero = () => {
                     </HStack>   
                 <HStack mt={5}>
                   <Button leftIcon={<EmailIcon/>}>Email Me</Button>        
-                  <Button leftIcon={<DownloadIcon/>} variant={'outline'}>Download CV</Button>        
+                  <Button leftIcon={<DownloadIcon/>} variant={'outline'} >Download CV</Button>        
                 </HStack>    
                     
             </Box>

@@ -5,7 +5,15 @@ import live from "../../img/live.png"
 import step from "../../img/newicon/step.png"
 import coastalmind from "../../img/newicon/coastal.png"
 import mama from "../../img/newicon/mama.png"
-import { Heading } from '@chakra-ui/react'
+import { Avatar, Box, Button, Card, CardBody, CardFooter, CardHeader, Center, Flex, HStack, Heading, Image, SimpleGrid, Text, Tooltip, VStack } from '@chakra-ui/react'
+import { LockIcon, ViewIcon } from '@chakra-ui/icons'
+import javascriptImage from "../../img/javascript.png"
+import html from "../../img/html.png"
+import node from "../../img/nodejs.png"
+import redux from "../../img/redux.png"
+import react from "../../img/react.png"
+import mongo from "../../img/mongodb.png"
+import android from "../../img/androida.png"
 const Projects = () => {
 
   
@@ -18,7 +26,7 @@ const Projects = () => {
       project_image:mama,
       project_code:"https://github.com/alicehack2020/mama-earth-march-2022",
       project_live:"https://mamaearth.netlify.app/",
-      project_info:" \n \n mama earth",
+      project_info:"  Mamaearth's Natural & Toxin Free Skin Care Products Online. Only Toxin Free Madesafe Certified Brand In India. Visit Now! Free Shipping.",
       view_code:"View Code",
       live_demo:"Live Preview",  
       features_1:"1.Home Page",
@@ -28,26 +36,36 @@ const Projects = () => {
       features_5:"5.User Profile",
       features_6:"6.Cart and Payment Page",
 
-      tech:"Tech Stack : HTML | CSS | Javascript",
+      tech:"HTML | CSS | Javascript",
       responsibilities1:" 1. Built user profile page",
       responsibilities2:" 2. Get user data from local storage.",
       responsibilities3:"A collaborative project built by a team of 4 executed in 4 days.",
-          
+      code: true,
+      stack: [
+        {
+          img: html,
+          name:'Html'
+        },
+        {
+          img: javascriptImage,
+          name:'JavaScript'
+        }
+      ]  
     },
-    
+
     {
       id:2,
       project_name:"step1 Education",
       project_image:step,
       project_code:"",
       project_live:"https://play.google.com/store/apps/details?id=com.steponeeducation.user",
-      project_info:"Step1 education app is useful for learners of all age groups.",
-      view_code:"App in Production",
+      project_info:"Step1 Education is  online learning app, offering a comprehensive learning experience for learners.  easy-to-use interface and lessons designed by experienced faculty",
+      view_code:"Production",
       live_demo:"Live Preview",
 
      
   
-      tech:"Tech Stack : HTML | CSS | Javascript|Java|Firebase|One Signal ",
+      tech:" HTML | CSS | Javascript|Java|Firebase|One Signal ",
       features_1:"1.Login, Register, Forgot Password",
       features_2:"2.Online Course",
       features_3:"3.Online Exam",
@@ -58,7 +76,21 @@ const Projects = () => {
       responsibilities1:" Build backend and Mobile Desing,Notification Integration ",
       responsibilities2:"",
       responsibilities3:"A collaborative   built by a team of 3 executed in 3 months.",
-          
+      code: false , 
+      stack: [
+        {
+          img: html,
+          name:'HTML'
+        },
+        {
+          img: javascriptImage,
+          name:'JavaScript'
+        },
+        {
+          img: android,
+          name:'Android'
+        }
+      ] 
     },
     {
       id:3,
@@ -67,12 +99,12 @@ const Projects = () => {
       project_code:"",
       project_live:"https://play.google.com/store/apps/details?id=com.akarz",
       project_info:"This app is built for 1st to 10th standard students who want to learn at a low cost. This app content semi, English, Marathi medium students content",
-      view_code:"App in Production",
+      view_code:" Production",
       live_demo:"Live Preview",
 
      
   
-      tech:"Tech Stack : HTML | CSS | Javascript|Java|Firebase|One Signal",
+      tech:" HTML | CSS | Javascript|Java|Firebase|One Signal",
       features_1:" 1. User Authentification",
       features_2:" 2. User-Friendly Ui",
       features_3:" 3. Student Can learn online at a low cost",
@@ -83,89 +115,94 @@ const Projects = () => {
       responsibilities1:"payment gateway Integration,Deployment on playstore",
       responsibilities2:"",
       responsibilities3:"A  project built by a team of 3 executed in 3 months.",
-          
-    }
-
-
-    
-    
+      code: false,
+      stack: [
+        {
+          img: html,
+          name:'HTML'
+        },
+        {
+          img: javascriptImage,
+          name:'JavaScript'
+        },
+        {
+          img: android,
+          name:'Android'
+        }
+      ] 
+    }  
 ]
 
+  
+  
+  const cardStyle = {
+    m: "10px"
+  }
 
   return (
-    <div className='project_main' id='Project'>
-        <div className='project_heading'> 
-            <h1>Recent Projects</h1> 
-            {/* <div className='View_More'>View More</div> */}
-      </div>
- 
-        <div className='project_list'>
-{
-list.map((ele)=>{
-  return( <div>
-              <h3 className='p_title'>{ele.project_name}</h3>
-              <div className='projet_main_image' id='p_image'>
-                <img src={ele.project_image} alt="projectone"  className='project_image'/>
-              </div>
-               
-              <div className='project_info' id='p_info'>
-               
-              <p className='ptitle'>{ele.project_info}</p>
-              <span>feature</span>
-              <ul>
-                <li>{ele.features_1+" || "+ ele.features_2 }</li>
-                <li>{ele.features_3 +"|| "+ele.features_4}</li>
-                <li>{ele.features_5+" || "+ ele.features_6}</li>
-               
-              </ul>
-              <span>{ele.tech}</span><br />
-              <span>Areas of responsibility:</span>
-              <ul>
-                <li>{ele.responsibilities1+"||"+ele.responsibilities2}</li>
+     
+    <Box  m={'50px'} alignItems={'center'}>
+      <Center>
+         <Heading>Recent Projects</Heading>
+      </Center>
+      
+      <SimpleGrid minChildWidth={'200px'} spacing={10}>
+        {
+          list.map((e)=>{
+            return(<Card sx={cardStyle}>
+              <CardHeader alignItems={'center'}>
+              <center fontWeight={'bold'}> {e.project_name}</center>
+             </CardHeader>
+              <CardBody alignItems={'center'}>
+                <Image src={e.project_image}></Image>
+                <Text fontWeight={'bold'}>About:</Text>
+                <Text>{ e.project_info}</Text>
+
                 
-                <li>{ele.responsibilities3}</li>
-               </ul>
-
-              </div>
-
-              <div className='flex project_view'>
-
-                <a href={ele.project_code} target="_blank" rel="noopener noreferrer">
-                <div className='flex code_button'>
-                    <img src={show} alt="" className='p_icon' />
-                    <p>{ele.view_code}</p>
-                  </div>
+                
+                <Box alignItems={'center'}>
+                    <Text fontWeight={'bold'}>TeckStack:</Text>
+                  <SimpleGrid columns={'5'} spacing={'15px'} >
+                    {
+                      e.stack.map((e) => {
+                        return (<>
+                          <Card m={'5px'}>
+                          <Tooltip label={e.name}>
+                            <Center >
+                                <Avatar src={e.img}></Avatar>
+                              </Center>
+                            </Tooltip>
+                        </Card>
+                        </>)
+                      })
+                    }
+                  </SimpleGrid>
+                 </Box>
+              </CardBody>
+              <CardFooter>
+                <a href={e.project_live} target="_blank" rel="noreferrer">
+                  <Button leftIcon={<ViewIcon />}>{e.live_demo}</Button>
                 </a>
-
-                <a href={ele.project_live} target="_blank" rel="noopener noreferrer" 
-                onClick={()=>{
-                  
-                }}>
-                  <div className='flex code_button'>
-                    <img src={live} alt="" className='p_icon' />
-                    <p>{ele.live_demo}</p>
-                  </div>
-                </a>
-
-                <div>
-                  <div className='flex more_infos' >
-                    <img src={live} alt="" className='p_icon' />
-                    <p>More Info</p>
-                  </div>
-                </div>
-
-              </div>
-          </div>
-          )
-})
-}
-         
-
-         
-
-        </div>
-
-    </div>
+                {
+                  e.code===true?<>
+                  <a href={e.project_code} target="_blank" rel="noreferrer">
+                  <Button leftIcon={<ViewIcon />} variant={'outline'}>{e.view_code}</Button>
+                  </a>
+                  </> : <>
+                  <Tooltip label={'This is Producation app'}>
+                  <Button isDisabled leftIcon={<LockIcon />}  variant={'outline'}>View Code</Button>
+                  </Tooltip>
+                  </> 
+                }
+              </CardFooter>
+            </Card>)
+          })
+          
+        }
+      </SimpleGrid>
+      </Box>
+     
+  
   )
 }
 
