@@ -10,10 +10,26 @@ import './font/Poppins-Medium.ttf';
 import './font/Poppins-MediumItalic.ttf';
 import './font/Poppins-Regular.ttf';
 import './font/Poppins-SemiBoldItalic.ttf';
+import { ChakraProvider ,extendBaseTheme } from '@chakra-ui/react'
+import { extendTheme } from '@chakra-ui/react'
+
+ 
+
+const theme = extendTheme({
+  components: {
+    Button: {
+      defaultProps: {
+        colorScheme: 'yellow', // default is gray
+      },
+    },
+  },
+})
+
+
 ReactDOM.render(
-  <React.StrictMode>
+  <ChakraProvider theme={theme}>
     <App />
-  </React.StrictMode>,
+  </ChakraProvider>,
   document.getElementById('root')
 );
 
