@@ -157,7 +157,7 @@ const Projects = () => {
 
   return (
      
-    <Box  m={'50px'} alignItems={'center'}>
+    <Box  m={'50px'} alignItems={'center'} id='Projects'>
       <Center>
          <Heading>Recent Projects</Heading>
       </Center>

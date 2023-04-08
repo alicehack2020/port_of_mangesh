@@ -18,7 +18,7 @@ import android from "../../img/androida.png"
      
   return (
       
-          <Box m={'50px'} alignItems={'center'}>
+          <Box m={'50px'} alignItems={'center'} id='Skills'>
           <Center>
               <Heading>Skills</Heading>
           </Center>

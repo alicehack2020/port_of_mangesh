@@ -5,7 +5,7 @@ const About = () => {
   return (
     
 <>
-<Container width={'100%'} minW={{ sm:'100%',md:'50%'}} mt={10}>
+<Container width={'100%'} minW={{ sm:'100%',md:'50%'}} mt={10} id='About'>
 <Card alignItems={'center'} borderBottom={'10px solid'} borderColor='#FEFCBF'>
 <Heading>About Me</Heading>
   <CardHeader>

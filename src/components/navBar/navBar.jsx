@@ -1,46 +1,72 @@
-import { SunIcon } from '@chakra-ui/icons';
-import { Box, Button, ButtonGroup, Card, Container, Flex, HStack, Heading, Text, Wrap, useColorMode } from '@chakra-ui/react'
+import { CloseIcon, HamburgerIcon, MoonIcon, SunIcon } from '@chakra-ui/icons';
+import { Box, Button, ButtonGroup, Card, Container, Flex, VStack,HStack, Heading, List, ListItem, MenuIcon, Spacer, Text, Wrap, useColorMode, Link } from '@chakra-ui/react'
 import React, { useState } from 'react'
 
 const NavBar = () => {
     const [selected, setSelected] = useState('Home')
     const { colorMode, toggleColorMode } = useColorMode();
-    // const [color, setColor] = useState('white')
+    const [menu,setMenu]=useState(true)
     
 
     const themeChange = () => {
         toggleColorMode() 
-        // if (colorMode === 'light')
-        // {
-        //     setColor('transparent') 
-        // }
-        // else {
-        //     setColor('transparent')   
-        // }
-        // console.log("colorMode",colorMode)
-        // console.log("color",color)
-
     }
+
+    const menuChange = () => {
+        setMenu(false)
+    }
+     
+   
   return (
-      <Box mt={5}  bg={'white'} padding={3} marginTop={0}  position={'fixed'} width={'100%'}>
-          
-          <Flex justify={'space-between'} >
-              <Button   rel="noreferrer" variant='ghost' isActive={selected === 'Home' ? true:false} onClick={()=>setSelected('Home')}>Home</Button>
-               <HStack spacing='20px'>
-                  <ButtonGroup variant='ghost'>
-                      {/* <Button isActive={selected === 'About' ? true:false} onClick={()=>setSelected('About')}  display={{sm:'none',md:'none',lg:'block'}}>About</Button> */}
-                      <Button  isActive={selected === 'Projects' ? true:false} onClick={()=>setSelected('Projects')}>Projects</Button>
-                      <Button isActive={selected === 'Skill' ? true:false} onClick={()=>setSelected('Skill')}>Skill</Button>
-                      <Button isActive={selected === 'contact' ? true:false} onClick={()=>setSelected('contact')}>Contact</Button>
-                      <Button isActive={selected === 'Resume' ? true : false} onClick={() => setSelected('Resume')}>Resume</Button>
-                      <Button leftIcon={<SunIcon />} onClick={themeChange} variant={'outline'}></Button>
-                  </ButtonGroup>
-                   
-              </HStack>
-          </Flex>
-          
-          
-           
+      <Box mt={5} zIndex={2} bg={colorMode === 'light' ?'white' :'#1A202C'} padding={3} marginTop={0}  position={'fixed'} width={'100%'}>
+          {
+              menu === true ? <Flex justify={'space-between'} >
+              <Link href='#'>
+                  <Button rel="noreferrer" variant='ghost' isActive={selected === 'Home' ? true : false} onClick={() => setSelected('Home')} display={{ base: 'none', md: 'flex', lg: 'flex' }}>Home</Button>
+                </Link>
+                      <HStack spacing='20px'>
+                      <ButtonGroup variant='ghost' display={{ base: 'none', md: 'flex', lg: 'flex' }}>
+                      <Link href='#About'>
+                            <Button isActive={selected === 'About' ? true : false} onClick={() => setSelected('About')}>About</Button>
+                     </Link>    
+                          <Link href='#Projects'>
+                             <Button href='#Projects' isActive={selected === 'Projects' ? true : false} onClick={() => setSelected('Projects')}>Projects</Button>
+                          </Link>
+                          <Link href='#Skills'>
+                              <Button isActive={selected === 'Skill' ? true : false} onClick={() => setSelected('Skill')}>Skill</Button>
+                          </Link>
+                          <Link href='#contact'>
+                              <Button isActive={selected === 'contact' ? true : false} onClick={() => setSelected('contact')}>Contact</Button>
+                              </Link>
+                              <Button isActive={selected === 'Resume' ? true : false} onClick={() => setSelected('Resume')}>Resume</Button>
+                      </ButtonGroup>
+                      <Button leftIcon={<HamburgerIcon />} variant={'outline'} display={{ base: 'flex', md: 'none', lg: 'none' }} onClick={menuChange}></Button>
+                      <Button leftIcon={colorMode === 'light' ? <SunIcon /> : <MoonIcon />} onClick={themeChange} variant={'ghost'}></Button>
+                  </HStack>
+              </Flex> : <Box bg={colorMode === 'light' ?'white' :'#1A202C'} display={{ base: 'flex', md: 'none', lg: 'none' }} justifyContent={'space-between'}>
+                      
+                      <VStack w={'80%'} variant='ghost'>
+                      <Link href='#' w='100%'>
+                              <Button w='100%' variant={'outline'} isActive={selected === 'Home' ? true : false} onClick={() => setSelected('Home')}>Home</Button>
+                     </Link>
+                      <Link href='#About' w='100%'>
+                            <Button  w='100%' variant={'outline'}  isActive={selected === 'About' ? true : false} onClick={() => setSelected('About')}>About</Button>
+                     </Link>    
+                          <Link href='#Projects' w='100%'>
+                             <Button  w='100%' variant={'outline'}  href='#Projects' isActive={selected === 'Projects' ? true : false} onClick={() => setSelected('Projects')}>Projects</Button>
+                          </Link>
+                          <Link href='#Skills' w='100%'>
+                              <Button w='100%' variant={'outline'}  isActive={selected === 'Skill' ? true : false} onClick={() => setSelected('Skill')}>Skill</Button>
+                          </Link>
+                          <Link href='#contact' w='100%'>
+                              <Button w='100%' variant={'outline'}  isActive={selected === 'contact' ? true : false} onClick={() => setSelected('contact')}>Contact</Button>
+                              </Link>
+                              <Button w='100%' variant={'outline'}  isActive={selected === 'Resume' ? true : false} onClick={() => setSelected('Resume')}>Resume</Button>
+                       </VStack>
+                      <Button variant={'ghost'} alignContent={'right'} leftIcon={<CloseIcon />} onClick={() => setMenu(true)}></Button>
+                      
+              </Box>
+          }
       </Box>
   )
 }
