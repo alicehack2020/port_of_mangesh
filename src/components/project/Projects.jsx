@@ -7,12 +7,18 @@ import mama from "../../img/newicon/mama.png"
 import { Avatar, Box, Button, Card, CardBody, CardFooter, CardHeader, Center, Flex, HStack, Heading, Image, SimpleGrid, Text, Tooltip, VStack } from '@chakra-ui/react'
 import { LockIcon, ViewIcon } from '@chakra-ui/icons'
 import javascriptImage from "../../img/javascript.png"
+import java from "../../img/javaimage.png"
 import html from "../../img/html.png"
 import node from "../../img/nodejs.png"
 import redux from "../../img/redux.png"
 import react from "../../img/react.png"
+import css from "../../img/cssImage.png"
+import firebase from "../../img/firebaseImage.png"
+import razorpay from "../../img/Razorpay.png"
+import twillio from "../../img/twilio.svg"
 import mongo from "../../img/mongodb.png"
 import android from "../../img/androida.png"
+import netlify from "../../img/netlify.png"
 const Projects = () => {
 
   
@@ -48,24 +54,15 @@ const Projects = () => {
         {
           img: javascriptImage,
           name:'JavaScript'
-        },
+        },  
         {
-          img: javascriptImage,
-          name:'JavaScript'
-        },
+          img: css,
+          name:'CSS'
+        },  
         {
-          img: javascriptImage,
-          name:'JavaScript'
-        },
-        {
-          img: javascriptImage,
-          name:'JavaScript'
-        },
-        {
-          img: javascriptImage,
-          name:'JavaScript'
-        }
-         
+          img: netlify,
+          name:'netlify'
+        }  
       ]  
     },
 
@@ -99,6 +96,10 @@ const Projects = () => {
           name:'HTML'
         },
         {
+          img: css,
+          name:'CSS'
+        },
+        {
           img: javascriptImage,
           name:'JavaScript'
         },
@@ -106,6 +107,27 @@ const Projects = () => {
           img: android,
           name:'Android'
         }
+        ,
+        {
+          img: firebase,
+          name:'Firebase'
+        },
+        {
+          img: java,
+          name:'Java'
+        },
+        {
+          img: twillio,
+          name:'Twillio'
+        },
+        {
+          img: razorpay,
+          name:'Razorpay'
+        } 
+          
+
+        
+
       ] 
     },
     {
@@ -138,6 +160,10 @@ const Projects = () => {
           name:'HTML'
         },
         {
+          img: css,
+          name:'CSS'
+        },
+        {
           img: javascriptImage,
           name:'JavaScript'
         },
@@ -145,6 +171,23 @@ const Projects = () => {
           img: android,
           name:'Android'
         }
+        ,
+        {
+          img: firebase,
+          name:'Firebase'
+        },
+        {
+          img: java,
+          name:'Java'
+        },
+        {
+          img: twillio,
+          name:'Twillio'
+        },
+        {
+          img: razorpay,
+          name:'Razorpay'
+        } 
       ] 
     }  
 ]

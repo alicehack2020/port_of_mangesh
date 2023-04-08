@@ -38,8 +38,9 @@ const NavBar = () => {
                           <Link href='#contact'>
                               <Button isActive={selected === 'contact' ? true : false} onClick={() => setSelected('contact')}>Contact</Button>
                               </Link>
-                              <Button isActive={selected === 'Resume' ? true : false} onClick={() => setSelected('Resume')}>Resume</Button>
-                      </ButtonGroup>
+                              <Link href='https://drive.google.com/drive/folders/1shG7IqM-qh5lRynGa4rCEJdLj-48nlgp?usp=sharing' target='blank' > 
+                              <Button   isActive={selected === 'Resume' ? true : false} onClick={() => setSelected('Resume')}>Resume</Button>
+                            </Link>                      </ButtonGroup>
                       <Button leftIcon={<HamburgerIcon />} variant={'outline'} display={{ base: 'flex', md: 'none', lg: 'none' }} onClick={menuChange}></Button>
                       <Button leftIcon={colorMode === 'light' ? <SunIcon /> : <MoonIcon />} onClick={themeChange} variant={'ghost'}></Button>
                   </HStack>
@@ -58,13 +59,14 @@ const NavBar = () => {
                           <Link href='#Skills' w='100%'>
                               <Button w='100%' variant={'outline'}  isActive={selected === 'Skill' ? true : false} onClick={() => setSelected('Skill')}>Skill</Button>
                           </Link>
-                          <Link href='#contact' w='100%'>
+                              <Link href='#contact' w='100%'>
                               <Button w='100%' variant={'outline'}  isActive={selected === 'contact' ? true : false} onClick={() => setSelected('contact')}>Contact</Button>
-                              </Link>
+                          </Link>
+                           <Link href='https://drive.google.com/drive/folders/1shG7IqM-qh5lRynGa4rCEJdLj-48nlgp?usp=sharing' target='blank' w='100%'> 
                               <Button w='100%' variant={'outline'}  isActive={selected === 'Resume' ? true : false} onClick={() => setSelected('Resume')}>Resume</Button>
-                       </VStack>
+                            </Link>
+                      </VStack>
                       <Button variant={'ghost'} alignContent={'right'} leftIcon={<CloseIcon />} onClick={() => setMenu(true)}></Button>
-                      
               </Box>
           }
       </Box>

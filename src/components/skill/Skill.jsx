@@ -2,11 +2,16 @@ import { AbsoluteCenter, Box, Card, CardBody, CardFooter, Center, Container, Gri
 import React from 'react'
 import javascriptImage from "../../img/javascript.png"
 import html from "../../img/html.png"
+import css from "../../img/css.png"
 import node from "../../img/nodejs.png"
 import redux from "../../img/redux.png"
 import react from "../../img/react.png"
 import mongo from "../../img/mongodb.png"
 import android from "../../img/androida.png"
+
+import aws from "../../img/aws.png"
+import mixpannel from "../../img/mixpannel.png"
+import webflow from "../../img/webflow.png"
  const Skill = () => {
 
      const cardStyle = {
@@ -33,6 +38,12 @@ import android from "../../img/androida.png"
                       <Card sx={cardStyle}>
                       <Image w={'80px'}  src={html}></Image>
                      <Center>HTML</Center> 
+                      </Card>
+                  </VStack>
+                  <VStack alignItems={'center'} >
+                      <Card sx={cardStyle}>
+                      <Image w={'80px'}  src={css}></Image>
+                     <Center>CSS</Center> 
                       </Card>
                   </VStack>
                   <VStack>
@@ -63,7 +74,25 @@ import android from "../../img/androida.png"
               <VStack>
                       <Card sx={cardStyle}>
                       <Image w={'80px'}  src={android}></Image>
-                     <Center>Android</Center> 
+                      <Center>Android</Center> 
+                      </Card>
+              </VStack>
+              <VStack>
+                      <Card sx={cardStyle}>
+                      <Image w={'80px'}  src={aws}></Image>
+                      <Center>AWS</Center> 
+                      </Card>
+              </VStack>
+              <VStack>
+                      <Card sx={cardStyle}>
+                      <Image w={'80px'}  src={mixpannel}></Image>
+                      <Center>Mixpannle</Center> 
+                      </Card>
+              </VStack>
+              <VStack>
+                      <Card sx={cardStyle}>
+                      <Image h={'55px'}  src={webflow}></Image>
+                      <Center>Webflow</Center> 
                       </Card>
               </VStack>
               
