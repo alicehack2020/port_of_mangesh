@@ -13,7 +13,7 @@ const About = () => {
       </CardHeader>
       <CardBody alignItems={'stretch'}>
         An experienced Full Stack Developer with expertise in the MERN
-        stack. Has 2 years of experience in developing and implementing
+        stack. Has experience in developing and implementing
         web applications using frontend and backend technologies.
         proficient in React.js, Redux, Node.js, MongoDB, and Express.js, and
         possess strong problem-solving and collaboration skills.
